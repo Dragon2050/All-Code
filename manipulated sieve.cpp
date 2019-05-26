@@ -32,10 +32,10 @@ int main()
     int n;
     scanf("%d",&n);
     sieve(n);
-    cout<<prime.size()<<endl;
-    for(int i=0; i<=50; i++)
-    {
-        cout<<prime[i]<< " ";
-    }
+//    cout<<prime.size()<<endl;
+//    for(int i=0; i<=50; i++)
+//    {
+//        cout<<prime[i]<< " ";
+//    }
     return 0;
 }
